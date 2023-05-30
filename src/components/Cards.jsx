@@ -8,7 +8,7 @@ const Cards = ({ pokemon, loading,infoPokemon}) => {
                     return (
                         <>
                         <div className='row'>
-                          <div className='col mb-2 ' >
+                           <div className='col mb-2 ' >
                           <div className='card'  key={item.id} onClick={()=>infoPokemon(item)}>
                             <img src={item.sprites.front_default} height="250px" width="100px" className='card-img-top' />
                               <div className='card-body'>
